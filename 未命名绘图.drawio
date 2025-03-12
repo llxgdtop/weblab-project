@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.1.0">
   <diagram name="第 1 页" id="mRTJMEbK_BDoFnGVs-Dx">
-    <mxGraphModel dx="1570" dy="665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="673" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,42 +167,45 @@
         <mxCell id="Yelha0Kg6dsWEkXLYgLJ-3" value="数据标注，为不同的刀具标注它们的标签，如丝锥、外圆车刀" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="266" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-2" target="zrcEb40Eo6VAs7soIi2D-4">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-2" target="zrcEb40Eo6VAs7soIi2D-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-2" value="用这些刀具拍摄大量加工视频" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-2" value="用这些刀具拍摄大量加工视频" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="175" y="552" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-4" target="zrcEb40Eo6VAs7soIi2D-16">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-4" target="zrcEb40Eo6VAs7soIi2D-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-4" value="提取帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-4" value="提取帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="349" y="552" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-6" target="zrcEb40Eo6VAs7soIi2D-8">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-6" target="zrcEb40Eo6VAs7soIi2D-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-6" value="数据增强" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-6" value="数据增强" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="181" y="678" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-8" target="zrcEb40Eo6VAs7soIi2D-14">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-8" target="zrcEb40Eo6VAs7soIi2D-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-8" value="模型训练与调参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-8" value="模型训练与调参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="678" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-9" value="出机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="805" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-11" target="zrcEb40Eo6VAs7soIi2D-2">
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-9" target="fE_ni1twdfnhlhhBRZQL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-24" value="方式1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zrcEb40Eo6VAs7soIi2D-10">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-9" value="出机" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="175" y="805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-11" target="zrcEb40Eo6VAs7soIi2D-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-24" value="方式1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zrcEb40Eo6VAs7soIi2D-10" vertex="1" connectable="0">
           <mxGeometry x="-0.0333" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-11" target="zrcEb40Eo6VAs7soIi2D-17">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zrcEb40Eo6VAs7soIi2D-11" target="zrcEb40Eo6VAs7soIi2D-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="55" y="512" />
@@ -210,34 +213,52 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-25" value="方式2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zrcEb40Eo6VAs7soIi2D-22">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-25" value="方式2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zrcEb40Eo6VAs7soIi2D-22" vertex="1" connectable="0">
           <mxGeometry x="-0.1658" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-11" value="先明确有多少种刀具需要识别" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-11" value="先明确有多少种刀具需要识别" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-5" y="552" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-12" value="研发方案二" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-12" value="研发方案二" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-125" y="557" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-14" target="zrcEb40Eo6VAs7soIi2D-9">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-14" target="zrcEb40Eo6VAs7soIi2D-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-14" value="融合进云平台中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-14" value="融合进云平台中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="805" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-16" target="zrcEb40Eo6VAs7soIi2D-6">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-16" target="zrcEb40Eo6VAs7soIi2D-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-16" value="数据标注，为不同的刀具标注它们的标签，如丝锥、外圆车刀" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-16" value="数据标注，为不同的刀具标注它们的标签，如丝锥、外圆车刀" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="349" y="678" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-17" target="zrcEb40Eo6VAs7soIi2D-16">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-17" target="zrcEb40Eo6VAs7soIi2D-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-17" value="爬取相应的刀具图片" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zrcEb40Eo6VAs7soIi2D-17" value="爬取相应的刀具图片" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="525" y="678" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-1" value="通过用户收集图片至满足模型训练要求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE_ni1twdfnhlhhBRZQL-3" target="fE_ni1twdfnhlhhBRZQL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-3" value="再次数据标注" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="912" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE_ni1twdfnhlhhBRZQL-4" target="fE_ni1twdfnhlhhBRZQL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-4" value="在第一次训练出的模型的基础上进行微调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="912" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-6" value="出机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="912" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
