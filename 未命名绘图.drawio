@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.1.0">
   <diagram name="第 1 页" id="mRTJMEbK_BDoFnGVs-Dx">
-    <mxGraphModel dx="1577" dy="673" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="679" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
         <mxCell id="bmIZgcjkjApxQ_gLFIaj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Yelha0Kg6dsWEkXLYgLJ-5" target="bmIZgcjkjApxQ_gLFIaj-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yelha0Kg6dsWEkXLYgLJ-5" value="模型训练与调参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Yelha0Kg6dsWEkXLYgLJ-5" value="调模型训练参数、改模型结构、训练模型" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5" y="266" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Yelha0Kg6dsWEkXLYgLJ-10" value="出机" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="Yelha0Kg6dsWEkXLYgLJ-14" value="先明确有多少种刀具需要识别" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yelha0Kg6dsWEkXLYgLJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Yelha0Kg6dsWEkXLYgLJ-18" target="Yelha0Kg6dsWEkXLYgLJ-20" edge="1">
+        <mxCell id="PGEfosrSfRk58h5UkelK-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yelha0Kg6dsWEkXLYgLJ-18" target="PGEfosrSfRk58h5UkelK-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Yelha0Kg6dsWEkXLYgLJ-18" value="数据标注，统一标注为“刀具”" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -61,12 +61,6 @@
               <mxPoint x="226" y="1454" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Yelha0Kg6dsWEkXLYgLJ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Yelha0Kg6dsWEkXLYgLJ-20" target="Yelha0Kg6dsWEkXLYgLJ-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Yelha0Kg6dsWEkXLYgLJ-20" value="模型训练与调参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="1424" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Yelha0Kg6dsWEkXLYgLJ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Yelha0Kg6dsWEkXLYgLJ-22" target="Yelha0Kg6dsWEkXLYgLJ-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -158,7 +152,7 @@
         <mxCell id="bmIZgcjkjApxQ_gLFIaj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bmIZgcjkjApxQ_gLFIaj-1" target="Yelha0Kg6dsWEkXLYgLJ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bmIZgcjkjApxQ_gLFIaj-1" value="融合进云平台中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="bmIZgcjkjApxQ_gLFIaj-1" value="将模型融合进云服务器中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5" y="393" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bmIZgcjkjApxQ_gLFIaj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Yelha0Kg6dsWEkXLYgLJ-3" target="Yelha0Kg6dsWEkXLYgLJ-4" edge="1">
@@ -179,19 +173,13 @@
         <mxCell id="zrcEb40Eo6VAs7soIi2D-4" value="提取帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="349" y="552" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-6" target="zrcEb40Eo6VAs7soIi2D-8" edge="1">
+        <mxCell id="PGEfosrSfRk58h5UkelK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-6" target="PGEfosrSfRk58h5UkelK-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zrcEb40Eo6VAs7soIi2D-6" value="数据增强" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="181" y="678" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-8" target="zrcEb40Eo6VAs7soIi2D-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-8" value="模型训练与调参数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="678" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fE_ni1twdfnhlhhBRZQL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zrcEb40Eo6VAs7soIi2D-9" target="fE_ni1twdfnhlhhBRZQL-1">
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-9" target="fE_ni1twdfnhlhhBRZQL-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zrcEb40Eo6VAs7soIi2D-9" value="出机" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -224,12 +212,6 @@
         <mxCell id="zrcEb40Eo6VAs7soIi2D-12" value="研发方案二" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-125" y="557" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-14" target="zrcEb40Eo6VAs7soIi2D-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zrcEb40Eo6VAs7soIi2D-14" value="融合进云平台中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="805" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="zrcEb40Eo6VAs7soIi2D-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zrcEb40Eo6VAs7soIi2D-16" target="zrcEb40Eo6VAs7soIi2D-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -242,23 +224,68 @@
         <mxCell id="zrcEb40Eo6VAs7soIi2D-17" value="爬取相应的刀具图片" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="525" y="678" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fE_ni1twdfnhlhhBRZQL-1" value="通过用户收集图片至满足模型训练要求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PGEfosrSfRk58h5UkelK-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE_ni1twdfnhlhhBRZQL-1" target="fE_ni1twdfnhlhhBRZQL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-1" value="通过用户收集图片至满足模型训练要求" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="349" y="805" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fE_ni1twdfnhlhhBRZQL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE_ni1twdfnhlhhBRZQL-3" target="fE_ni1twdfnhlhhBRZQL-4">
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fE_ni1twdfnhlhhBRZQL-3" target="fE_ni1twdfnhlhhBRZQL-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fE_ni1twdfnhlhhBRZQL-3" value="再次数据标注" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-3" value="再次数据标注" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="349" y="912" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fE_ni1twdfnhlhhBRZQL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE_ni1twdfnhlhhBRZQL-4" target="fE_ni1twdfnhlhhBRZQL-6">
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fE_ni1twdfnhlhhBRZQL-4" target="fE_ni1twdfnhlhhBRZQL-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fE_ni1twdfnhlhhBRZQL-4" value="在第一次训练出的模型的基础上进行微调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-4" value="在第一次训练出的模型的基础上进行微调" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="175" y="912" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fE_ni1twdfnhlhhBRZQL-6" value="出机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="912" width="120" height="60" as="geometry" />
+        <mxCell id="fE_ni1twdfnhlhhBRZQL-6" value="将修改好的模型替换掉原有模型" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-5" y="912" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PGEfosrSfRk58h5UkelK-2" target="PGEfosrSfRk58h5UkelK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-2" value="调模型训练参数、改模型结构、训练模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="678" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PGEfosrSfRk58h5UkelK-5" target="zrcEb40Eo6VAs7soIi2D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-5" value="将模型融合进云服务器中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PGEfosrSfRk58h5UkelK-8" target="Yelha0Kg6dsWEkXLYgLJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-8" value="调模型训练参数、改模型结构、训练模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1424" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-11" value="user1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-11" y="1695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-12" value="user n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-14" y="1811" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-13" value="......" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="1772" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PGEfosrSfRk58h5UkelK-14" target="PGEfosrSfRk58h5UkelK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-14" value="共用一个api key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1751" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="98.32" y="1801.18" width="81" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-18" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1720" width="81" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="PGEfosrSfRk58h5UkelK-19" value="向大模型发请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="1751" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
