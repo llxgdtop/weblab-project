@@ -1,28 +1,28 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="27.1.4">
   <diagram name="第 1 页" id="NKcoRTqlpazEILXK-IAT">
-    <mxGraphModel dx="1170" dy="-490" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="-477" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Bx22FVhancG-C68WlsKV-72" value="开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-72" value="开始" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="400" y="1179" width="95" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-73" value="读取 COCO 数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-73" value="读取 COCO 数据" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="360" y="1283" width="174" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-74" target="Bx22FVhancG-C68WlsKV-97">
+        <mxCell id="Bx22FVhancG-C68WlsKV-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bx22FVhancG-C68WlsKV-74" target="Bx22FVhancG-C68WlsKV-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-74" value="遍历图片数据，每一张图片都会被选作为图片A，然后随机选取另外一张作为图片B" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-74" value="遍历图片数据，每一张图片都会被选作为图片A，然后随机选取另外一张作为图片B" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="378" y="1387" width="138" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-76" value="随机缩放 A，尝试次数设为1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-76" value="随机缩放 A，尝试次数设为1" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="378" y="1622" width="138" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-77" target="Bx22FVhancG-C68WlsKV-78">
+        <mxCell id="Bx22FVhancG-C68WlsKV-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bx22FVhancG-C68WlsKV-77" target="Bx22FVhancG-C68WlsKV-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-77" target="Bx22FVhancG-C68WlsKV-74">
+        <mxCell id="Bx22FVhancG-C68WlsKV-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Bx22FVhancG-C68WlsKV-77" target="Bx22FVhancG-C68WlsKV-74" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="315.5999999999999" y="1708.9980079681277" as="sourcePoint" />
             <mxPoint x="316" y="1386.9" as="targetPoint" />
@@ -33,25 +33,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-77" value="尝试次数 ≤ max-retry" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-77" value="尝试次数 ≤ max-retry" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="383.75" y="1709" width="125.5" height="123" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-78" target="Bx22FVhancG-C68WlsKV-79">
+        <mxCell id="Bx22FVhancG-C68WlsKV-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bx22FVhancG-C68WlsKV-78" target="Bx22FVhancG-C68WlsKV-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-78" value="随机缩放 B" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-78" value="随机缩放 B" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="377" y="1864" width="138" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-79" target="Bx22FVhancG-C68WlsKV-80">
+        <mxCell id="Bx22FVhancG-C68WlsKV-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bx22FVhancG-C68WlsKV-79" target="Bx22FVhancG-C68WlsKV-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-79" value="perform_copy_paste (无重叠)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-79" value="perform_copy_paste (将B的mask掩码随机替换掉图像A的像素)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="316" y="1955" width="260" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-80" target="Bx22FVhancG-C68WlsKV-81">
+        <mxCell id="Bx22FVhancG-C68WlsKV-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bx22FVhancG-C68WlsKV-80" target="Bx22FVhancG-C68WlsKV-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-80" target="Bx22FVhancG-C68WlsKV-77">
+        <mxCell id="Bx22FVhancG-C68WlsKV-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Bx22FVhancG-C68WlsKV-80" target="Bx22FVhancG-C68WlsKV-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="613" y="2112" />
@@ -59,63 +59,63 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-80" value="成功?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-80" value="成功?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="400.5" y="2066" width="92" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-81" value="保存当前新图像 &amp; 新标注" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-81" value="保存当前新图像 &amp; 新标注" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="358" y="2191" width="177" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-83" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-72" target="Bx22FVhancG-C68WlsKV-73">
+        <mxCell id="Bx22FVhancG-C68WlsKV-83" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Bx22FVhancG-C68WlsKV-72" target="Bx22FVhancG-C68WlsKV-73" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-84" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-73" target="Bx22FVhancG-C68WlsKV-74">
+        <mxCell id="Bx22FVhancG-C68WlsKV-84" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Bx22FVhancG-C68WlsKV-73" target="Bx22FVhancG-C68WlsKV-74" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-87" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-76" target="Bx22FVhancG-C68WlsKV-77">
+        <mxCell id="Bx22FVhancG-C68WlsKV-87" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="Bx22FVhancG-C68WlsKV-76" target="Bx22FVhancG-C68WlsKV-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-97">
+        <mxCell id="Bx22FVhancG-C68WlsKV-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bx22FVhancG-C68WlsKV-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="447" y="1620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-97" target="Bx22FVhancG-C68WlsKV-98">
+        <mxCell id="Bx22FVhancG-C68WlsKV-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bx22FVhancG-C68WlsKV-97" target="Bx22FVhancG-C68WlsKV-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-97" value="遍历完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-97" value="遍历完成" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="407" y="1490" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bx22FVhancG-C68WlsKV-98" target="Bx22FVhancG-C68WlsKV-102">
+        <mxCell id="Bx22FVhancG-C68WlsKV-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bx22FVhancG-C68WlsKV-98" target="Bx22FVhancG-C68WlsKV-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-98" value="输出总的新图片与新标注" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-98" value="输出总的新图片与新标注" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="535" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-101" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-101" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="493.5" y="1500" width="26" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-102" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-102" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="699" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-105" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-105" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="455" y="1574" width="27" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-114" value="N，尝试次数加1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-114" value="N，尝试次数加1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="609" y="1933" width="105" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-115" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-115" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="446" y="2158" width="26" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-116" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-116" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="451" y="1827" width="26" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Bx22FVhancG-C68WlsKV-120" value="N，选择下一张图片A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Bx22FVhancG-C68WlsKV-120" value="N，选择下一张图片A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="155" y="1548" width="131" height="26" as="geometry" />
         </mxCell>
       </root>
